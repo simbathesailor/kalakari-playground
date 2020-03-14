@@ -1,0 +1,211 @@
+@font-face {
+	font-family: 'sequoia-icons';
+	src: url('fonts/sequoia-icons/sequoia-icons.eot?8qtd4c');
+	src: url('fonts/sequoia-icons/sequoia-icons.eot?8qtd4c#iefix') format('embedded-opentype'),
+		url('fonts/sequoia-icons/sequoia-icons.ttf?8qtd4c') format('truetype'),
+		url('fonts/sequoia-icons/sequoia-icons.woff?8qtd4c') format('woff'),
+		url('fonts/sequoia-icons/sequoia-icons.svg?8qtd4c#sequoia-icons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+[class^='seq-'],
+[class*=' seq-'] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'sequoia-icons' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.seq-thumbs-up:before {
+	content: '\e900';
+}
+.seq-piggy:before {
+	content: '\e902';
+}
+.seq-medikit:before {
+	content: '\e903';
+}
+.seq-lotus:before {
+	content: '\e904';
+}
+.seq-dollar-card:before {
+	content: '\e905';
+}
+.seq-id-card:before {
+	content: '\e906';
+}
+.seq-map-marker-plus:before {
+	content: '\e907';
+}
+.seq-user-plus:before {
+	content: '\e908';
+}
+.seq-user-cross:before {
+	content: '\e909';
+}
+.seq-success-check:before {
+	content: '\e90a';
+}
+.seq-open:before {
+	content: '\e90b';
+}
+.seq-documents:before {
+	content: '\e90c';
+}
+.seq-minus:before {
+	content: '\e90d';
+}
+.seq-plus:before {
+	content: '\e90e';
+}
+.seq-image:before {
+	content: '\e90f';
+}
+.seq-edit:before {
+	content: '\e910';
+}
+.seq-share:before {
+	content: '\e911';
+}
+.seq-heart-filled:before {
+	content: '\e912';
+}
+.seq-code:before {
+	content: '\e91c';
+}
+.seq-user:before {
+	content: '\e932';
+}
+.seq-shield:before {
+	content: '\e933';
+}
+.seq-trash:before {
+	content: '\e934';
+}
+.seq-map-marker:before {
+	content: '\e935';
+}
+.seq-clipboard-check:before {
+	content: '\e936';
+}
+.seq-phone:before {
+	content: '\e937';
+}
+.seq-401k:before {
+	content: '\e92e';
+}
+.seq-folder:before {
+	content: '\e913';
+}
+.seq-download:before {
+	content: '\e914';
+}
+.seq-dashboard:before {
+	content: '\e928';
+}
+.seq-arrow-right:before {
+	content: '\e915';
+}
+.seq-angle-down:before {
+	content: '\e916';
+}
+.seq-angle-left:before {
+	content: '\e917';
+}
+.seq-angle-right:before {
+	content: '\e918';
+}
+.seq-angle-up:before {
+	content: '\e919';
+}
+.seq-ellipsis:before {
+	content: '\e91f';
+}
+.seq-mail:before {
+	content: '\e91e';
+}
+.seq-calculator:before {
+	content: '\e91a';
+}
+.seq-dollar-circle:before {
+	content: '\e91b';
+}
+.seq-check:before {
+	content: '\e91d';
+}
+.seq-bell:before {
+	content: '\e920';
+}
+.seq-close:before {
+	content: '\e921';
+}
+.seq-calendar:before {
+	content: '\e922';
+}
+.seq-search:before {
+	content: '\e923';
+}
+.seq-benchmarking:before {
+	content: '\e924';
+}
+.seq-users:before {
+	content: '\e925';
+}
+.seq-compliance:before {
+	content: '\e926';
+}
+.seq-dollar:before {
+	content: '\e927';
+}
+.seq-insights:before {
+	content: '\e929';
+}
+.seq-horn:before {
+	content: '\e92a';
+}
+.seq-project-planner:before {
+	content: '\e92b';
+}
+.seq-reports:before {
+	content: '\e92c';
+}
+.seq-umbrella:before {
+	content: '\e92d';
+}
+.seq-settings:before {
+	content: '\e92f';
+}
+.seq-heart:before {
+	content: '\e930';
+}
+.seq-check-circle:before {
+	content: '\e931';
+}
+.seq-info-circle:before {
+	content: '\e938';
+}
+.seq-alert:before {
+	content: '\e939';
+}
+.seq-eye:before {
+	content: '\e93a';
+}
+.seq-facebook:before {
+	content: '\e93b';
+}
+.seq-twitter:before {
+	content: '\1f5c5';
+}
+.seq-globe:before {
+	content: '\e93c';
+}

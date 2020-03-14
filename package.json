@@ -1,0 +1,45 @@
+{
+  "name": "kalakari-playground",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.3.1",
+    "styled-components": "^5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "link-dev-kalakari": "npm link @kalakari/components && npm link @kalakari/hooks && npm link @kalakari/utilities",
+    "install-kalakari": "node test1.js && node test2.js",
+    "postinstall": "npm run install-kalakari"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "chalk": "^3.0.0",
+    "execa": "^4.0.0",
+    "fs-extra": "^8.1.0",
+    "ora": "^4.0.3",
+    "shelljs": "^0.8.3"
+  }
+}
